@@ -1,0 +1,25 @@
+.timer-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  .timer-count-wrapper {
+    width: 100px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    margin: auto;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .timer-btns {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+}
