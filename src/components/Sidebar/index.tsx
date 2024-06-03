@@ -8,10 +8,6 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import "./Sidebar.scss";
 // ------------------------------------------------------------------
 
-// Icons ------------------------------------------------------------
-import { Clock9 } from "lucide-react";
-// ------------------------------------------------------------------
-
 type SidebarProps = {
   label: string;
   path: string;
@@ -34,7 +30,6 @@ function Sidebar({ componentPaths }: { componentPaths: SidebarProps[] }) {
                 };
               }}
             >
-              <Clock9 strokeWidth={"1px"} className="h-4 w-4" />
               {componentPath.label}
             </NavLink>
           );

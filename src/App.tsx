@@ -9,11 +9,17 @@ import Timer from "./components/Timer";
 
 // Styles -----------------------------------------------------------
 import "./App.scss";
+import TreeBrowser from "./components/TreeBrowser";
 // ------------------------------------------------------------------
 
 // * CONSTANTS ------------------------------------------------------
 const COMPONENT_PATHS = [
   { label: "Timer", path: "/timer", element: () => <Timer /> },
+  {
+    label: "Tree Browser",
+    path: "/tree-browser",
+    element: () => <TreeBrowser />,
+  },
 ];
 // * ----------------------------------------------------------------
 
